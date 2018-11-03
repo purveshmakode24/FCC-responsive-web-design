@@ -1,3 +1,3 @@
-# Responsive-Web-Design
+# FCC-Responsive-Web-Design
 
-#### This repo contains the responsive web design projects done during the freeCodeCamp course.
+#### This repo contains the responsive web design projects done during the freeCodeCamp.
