@@ -1,17 +1,20 @@
 body {
   font-family: monospace;
   font-size:16px;
-  margin: 50px 200px 50px 200px;
+  margin: auto;
+
 }
 
 h1 {
   text-align: center;
   color:white;
+  padding:10px;
   font-family: courier; 
 }
 
 h3 {
   text-align: center;
+  padding: 10px;
   color:white;
   font-family: courier;
 }
@@ -21,6 +24,7 @@ h4 {
   font-style:italic;
   padding-bottom:20px;
   color:white;
+  padding: 10px;
   
 }
 
@@ -49,17 +53,19 @@ li {
   height:auto; 
   display:block;
   margin:auto;
+  padding: 10px;
 }
 
 .conatiner1 {
   background:black;
-  padding:45px 45px 15px 45px; 
+  padding:45px 400px 45px 400px; 
 }
 
 .container2 {
   background: #efefef;
   margin-top:-20px;
-  padding:0px 20px 0 20px;
+  padding:0px 250px 0 250px;
+  text-align: justify;
 }
 
 footer {
@@ -68,3 +74,17 @@ footer {
   background-color:black;
   color:white;
 }
+
+@media (max-width: 1000px){
+      .container2 {
+        padding: 0px 10px 0px 10px;
+      }
+    }
+
+    @media (max-width: 1200px){
+      .conatiner1 {
+        padding:45px 45px 45px 45px; 
+      }
+    }
+
+    
