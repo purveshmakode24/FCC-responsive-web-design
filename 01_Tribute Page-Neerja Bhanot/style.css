@@ -81,7 +81,7 @@ footer {
       }
     }
 
-    @media (max-width: 1200px){
+@media (max-width: 1200px){
       .conatiner1 {
         padding:45px 45px 45px 45px; 
       }
